@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background:rgb(139, 221, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watermelon-box{
+    width:150px;
+    height: 90px;
+    border:5px solid green;
+    border-radius: 5px 5px 100px 100px;
+    border-top:0 !important;
+    background-color: rgb(143, 252, 19);
+}
+.watermelon{
+    width:130px;
+    height: 80px;
+    border-radius: 5px 5px 100px 100px;
+    border-top:0 !important;
+    background:rgb(235, 45, 92);
+    display: flex;
+    flex-wrap: wrap;
+    padding:30px;
+    margin: 0 auto;
+    
+}
+.seed{
+    width:7px;
+    height:5px;
+    border-radius: 50%;
+    background-color: black;
+    margin:1px 7px;
+}
